@@ -106,18 +106,6 @@ public class groandinn_main extends Activity {
                 intent.putExtra("area",areaValue);
                 startActivity(intent);
 
-
-
-                /*
-                Intent intent = new Intent(groandinn_main.this,groandinn_info.class);
-
-
-
-                intent.putExtra("spiPlant",plantValue);
-                intent.putExtra("spiArea",areaValue);
-
-                groandinn_main.this.startActivity(intent);
-                */
             }
         });
 
